@@ -9,6 +9,7 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: "export",
     reactStrictMode: true,
     images: {
     domains: ['ui-avatars.com'],
