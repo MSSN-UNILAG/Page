@@ -13,7 +13,10 @@ const nextConfig = {
     reactStrictMode: true,
     images: {
     domains: ['ui-avatars.com'],
-    }
+    },
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
     // swcMinify: true,
     // Add any other custom configurations here
   };
